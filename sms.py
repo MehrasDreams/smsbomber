@@ -8,7 +8,7 @@ fake_username = Faker()
 
 # inputs
 phone_input = input(Fore.GREEN + 'Enter your phone number:\n\n:>>')
-many_input = input(Fore.RED + f'How man time do you want send sms to {phone_input}:  ')
+many_input = input(Fore.RED + f'How many time do you want send sms to {phone_input}:  ')
 
 # Request and post
 url = 'https://alloestekhdam.com/User/userSignupStepOne'
